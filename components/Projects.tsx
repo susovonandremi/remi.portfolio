@@ -20,7 +20,7 @@ export default function Projects() {
                     className="group flex flex-col md:flex-row gap-20"
                 >
                     {/* Image */}
-                    <Link href="https://github.com/susovonandremi/plot-ai" target="_blank" className="w-full md:w-1/2 aspect-video bg-neutral-900 rounded-2xl overflow-hidden relative border border-white/5 ring-1 ring-white/0 transition-all duration-500 hover:ring-white/20 hover:shadow-[0_0_30px_rgba(255,255,255,0.05)]">
+                    <Link href="https://github.com/susovonandremi/plot-it" target="_blank" className="w-full md:w-1/2 aspect-video bg-neutral-900 rounded-2xl overflow-hidden relative border border-white/5 ring-1 ring-white/0 transition-all duration-500 hover:ring-white/20 hover:shadow-[0_0_30px_rgba(255,255,255,0.05)]">
                         <div className="absolute inset-0 z-10 bg-gradient-to-tr from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
                         <Image
                             src="/architect-project.png"
@@ -41,7 +41,7 @@ export default function Projects() {
                         <p className="text-neutral-400 text-lg mb-8 max-w-md">
                             A production-ready architectural engine that deterministically generates professional-grade, CAD-standard SVG blueprints using a rigorous backend constraint solver.
                         </p>
-                        <Link href="https://github.com/susovonandremi/plot-ai" target="_blank">
+                        <Link href="https://github.com/susovonandremi/plot-it" target="_blank">
                             <button className="text-sm font-bold uppercase tracking-wider border-b border-[#00f0ff] pb-1 hover:text-[#00f0ff] transition-colors">
                                 Project Overview
                             </button>
