@@ -33,7 +33,7 @@ export default function Projects() {
 
                     {/* Content */}
                     <div className="w-full md:w-1/2 flex flex-col justify-center items-start">
-                        <Link href="https://github.com/susovonandremi/plot-ai" target="_blank">
+                        <Link href="https://github.com/susovonandremi/plot-it" target="_blank">
                             <h3 className="text-3xl md:text-4xl font-bold mb-6 hover:text-[#00f0ff] transition-colors">
                                 Architect
                             </h3>
