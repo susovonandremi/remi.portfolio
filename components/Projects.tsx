@@ -20,7 +20,7 @@ export default function Projects() {
                     className="group flex flex-col md:flex-row gap-20"
                 >
                     {/* Image */}
-                    <Link href="https://github.com/susovonandremi/plot-it" target="_blank" className="w-full md:w-1/2 aspect-video bg-neutral-900 rounded-2xl overflow-hidden relative border border-white/5 ring-1 ring-white/0 transition-all duration-500 hover:ring-white/20 hover:shadow-[0_0_30px_rgba(255,255,255,0.05)]">
+                    <a href="https://github.com/susovonandremi/plot-it" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/2 aspect-video bg-neutral-900 rounded-2xl overflow-hidden relative border border-white/5 ring-1 ring-white/0 transition-all duration-500 hover:ring-white/20 hover:shadow-[0_0_30px_rgba(255,255,255,0.05)]">
                         <div className="absolute inset-0 z-10 bg-gradient-to-tr from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
                         <Image
                             src="/architect-project.png"
@@ -29,23 +29,23 @@ export default function Projects() {
                             priority
                             className="object-cover transition-transform duration-700 group-hover:scale-105"
                         />
-                    </Link>
+                    </a>
 
                     {/* Content */}
                     <div className="w-full md:w-1/2 flex flex-col justify-center items-start">
-                        <Link href="https://github.com/susovonandremi/plot-it" target="_blank">
+                        <a href="https://github.com/susovonandremi/plot-it" target="_blank" rel="noopener noreferrer">
                             <h3 className="text-3xl md:text-4xl font-bold mb-6 hover:text-[#00f0ff] transition-colors">
                                 Architect
                             </h3>
-                        </Link>
+                        </a>
                         <p className="text-neutral-400 text-lg mb-8 max-w-md">
                             A production-ready architectural engine that deterministically generates professional-grade, CAD-standard SVG blueprints using a rigorous backend constraint solver.
                         </p>
-                        <Link href="https://github.com/susovonandremi/plot-it" target="_blank">
+                        <a href="https://github.com/susovonandremi/plot-it" target="_blank" rel="noopener noreferrer">
                             <button className="text-sm font-bold uppercase tracking-wider border-b border-[#00f0ff] pb-1 hover:text-[#00f0ff] transition-colors">
                                 Project Overview
                             </button>
-                        </Link>
+                        </a>
                     </div>
                 </motion.div>
 
