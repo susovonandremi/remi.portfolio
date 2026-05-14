@@ -66,7 +66,7 @@ export default function Hero({ isLoaded }: HeroProps) {
           className="mt-8"
         >
           <a
-            href="https://drive.google.com/file/d/1pr9mYTUV_xJBD5jkAQV2XMfdpO4siWVK/view?usp=sharing"
+            href="https://docs.google.com/document/d/19x7BZ8V0ff1LuVg1NLlb_sYHqm5Ve3nCSY-sdi9TXmU/edit?usp=drive_link"
             target="_blank"
             className="bg-[#00f0ff] text-black hover:bg-[#00f0ff]/80 font-bold rounded-full w-fit px-8 py-3 transition-transform hover:scale-105 relative z-10"
           >
