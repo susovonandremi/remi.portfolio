@@ -39,25 +39,25 @@ const mobileScreens = [
     copy: "The mobile dashboard leads with a \"Live Now\" indicator so a student rushing between buildings knows their next destination before they even unlock their phone. CGPA and attendance sit just below, rendered as large, high-contrast numerals rather than buried table cells — because those two numbers carry the most cognitive weight in a student's day, and surfacing them instantly transforms anxiety into awareness.",
   },
   {
+    src: "/Library.png",
+    alt: "Mobile Library Management — due dates and quick renewal actions",
+    label: "02 — Library",
+    headline: "Never pay a fine again.",
+    copy: "The library module is almost always an afterthought in academic portals — until a student receives a fine notice. The mobile redesign puts due dates front and center with a high-visibility countdown, and surfaces a one-tap \"Renew\" action directly on the card. No navigation, no buried settings page. The friction to perform the single most important library action has been reduced to a single thumb movement.",
+  },
+  {
     src: "/Exams.png",
     alt: "Mobile Exams & Schedule — countdown timer and clean timeline",
-    label: "02 — Exams & Schedule",
+    label: "03 — Exams & Schedule",
     headline: "Calm under pressure.",
     copy: "Exam season is inherently stressful. The original portal did nothing to help — a static list of dates with no sense of urgency or sequence. The redesigned Exams screen replaces that with a live countdown timer front and center, giving students a clear answer to the question they're already asking: \"How much time do I have?\" Below it, a vertical timeline renders upcoming papers in chronological order, eliminating the need to mentally sort and prioritize.",
   },
   {
     src: "/Results.png",
     alt: "Mobile Results & Analytics — graphical trend charts replacing dense tables",
-    label: "03 — Results & Analytics",
+    label: "04 — Results & Analytics",
     headline: "Your progress, made legible.",
     copy: "Dense mark-sheets are the enemy of self-reflection. When every subject is a row in a table, patterns are invisible. The Results screen replaces those tables with trend-line charts, letting students see at a glance whether they're on an upward trajectory or need to course-correct. A single color-coded arc communicates semester GPA faster than any number can — because humans are wired to read shapes, not spreadsheets.",
-  },
-  {
-    src: "/Library.png",
-    alt: "Mobile Library Management — due dates and quick renewal actions",
-    label: "04 — Library",
-    headline: "Never pay a fine again.",
-    copy: "The library module is almost always an afterthought in academic portals — until a student receives a fine notice. The mobile redesign puts due dates front and center with a high-visibility countdown, and surfaces a one-tap \"Renew\" action directly on the card. No navigation, no buried settings page. The friction to perform the single most important library action has been reduced to a single thumb movement.",
   },
 ];
 
