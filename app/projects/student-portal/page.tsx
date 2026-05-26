@@ -32,7 +32,7 @@ function PhoneBezel({
 // ─── Mobile screen data ──────────────────────────────────────────────────────
 const mobileScreens = [
   {
-    src: "/Dasboard.png",
+    src: "/Dashboard.png",
     alt: "Mobile Dashboard — Live Now class indicator and CGPA snapshot",
     label: "01 — Dashboard",
     headline: "Everything you need. Nothing you don't.",
