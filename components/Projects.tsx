@@ -111,11 +111,22 @@ export default function Projects() {
                         <p className="text-neutral-400 text-lg mb-8 max-w-md">
                             A complete UX overhaul of the college identity portal, streamlining navigation and improving accessibility for thousands of students.
                         </p>
-                        <Link href="/projects/student-portal">
-                            <button className="text-sm font-bold uppercase tracking-wider border-b border-[#00f0ff] pb-1 hover:text-[#00f0ff] transition-colors">
-                                View Case Study
-                            </button>
-                        </Link>
+                        <div className="flex gap-6">
+                            <Link href="/projects/student-portal">
+                                <button className="text-sm font-bold uppercase tracking-wider border-b border-[#00f0ff] pb-1 hover:text-[#00f0ff] transition-colors">
+                                    View Case Study
+                                </button>
+                            </Link>
+                            <a
+                                href="https://www.figma.com/design/NmXpfAg1ompr7mj1e2C1Sn/STUDENT-PORTAL-MOBILE?node-id=31-250&t=xm6681PKtbIiVwgG-1"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className="text-sm font-bold uppercase tracking-wider border-b border-[#00f0ff] pb-1 hover:text-[#00f0ff] transition-colors">
+                                    Open in Figma
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </motion.div>
 
