@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 
 const navLinks = [
@@ -13,7 +12,6 @@ const navLinks = [
 ];
 
 export default function Navbar() {
-    const pathname = usePathname();
 
     return (
         <motion.nav
@@ -24,7 +22,7 @@ export default function Navbar() {
         >
             {/* Brand */}
             <Link href="/" className="font-bold text-white text-sm tracking-tight">
-                Susovon's Portfolio
+                Susovon&apos;s Portfolio
             </Link>
 
             {/* Links */}

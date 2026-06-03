@@ -2,7 +2,6 @@
 
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import Image from "next/image";
-import { useRef } from "react";
 
 export default function ScrollGraphic() {
     const { scrollYProgress } = useScroll();

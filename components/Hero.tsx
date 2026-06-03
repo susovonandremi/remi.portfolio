@@ -23,7 +23,7 @@ export default function Hero({ isLoaded }: HeroProps) {
           }}
           className="relative rounded-full px-3 py-1 text-xs text-white bg-white/5 border border-white/10 mb-8 backdrop-blur-md"
         >
-          Hi, I'm Remi 👋
+          Hi, I&apos;m Remi 👋
         </motion.div>
 
         {/* H1 Title */}

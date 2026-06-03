@@ -59,7 +59,7 @@ export default function Contact() {
                 setSubmitStatus("error");
                 setErrorMessage(data.message || "Something went wrong. Please try again.");
             }
-        } catch (error) {
+        } catch {
             setSubmitStatus("error");
             setErrorMessage("Failed to send message. Please check your connection.");
         } finally {
@@ -91,10 +91,10 @@ export default function Contact() {
                 {/* Left Column: Heading */}
                 <div className="flex flex-col justify-center">
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-none">
-                        Let's build<br />something<br /><span className="text-[#00f0ff]">meaningful.</span>
+                        Let&apos;s build<br />something<br /><span className="text-[#00f0ff]">meaningful.</span>
                     </h1>
                     <p className="text-neutral-400 text-lg max-w-md">
-                        I'm currently available for freelance projects and open to full-time opportunities. Feel free to drop me a line!
+                        I&apos;m currently available for freelance projects and open to full-time opportunities. Feel free to drop me a line!
                     </p>
                 </div>
 
@@ -111,7 +111,7 @@ export default function Contact() {
                                 <CheckCircle2 className="w-16 h-16 text-[#00f0ff]" />
                                 <h3 className="text-2xl font-bold">Message Sent!</h3>
                                 <p className="text-neutral-400 max-w-xs">
-                                    Thank you for reaching out. I'll get back to you as soon as possible!
+                                    Thank you for reaching out. I&apos;ll get back to you as soon as possible!
                                 </p>
                                 <button
                                     onClick={() => setSubmitStatus("idle")}

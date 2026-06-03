@@ -38,7 +38,7 @@ export default function About() {
           </h2>
 
           <p className="text-neutral-400 text-lg leading-relaxed mb-10">
-            I'm a design engineer who thrives on turning ambiguity into clarity. my approach combines technical depth with creative intuition to build digital products that feel natural and perform beautifully.
+            I&apos;m a design engineer who thrives on turning ambiguity into clarity. my approach combines technical depth with creative intuition to build digital products that feel natural and perform beautifully.
           </p>
 
           <a
