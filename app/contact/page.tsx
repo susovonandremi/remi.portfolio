@@ -28,14 +28,7 @@ export default function Contact() {
         setIsSubmitting(true);
         setSubmitStatus("idle");
 
-        const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY;
-
-        if (!accessKey || accessKey === "YOUR_ACCESS_KEY_HERE") {
-            setSubmitStatus("error");
-            setErrorMessage("Web3Forms Access Key is not configured. Please set the NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY environment variable.");
-            setIsSubmitting(false);
-            return;
-        }
+        const accessKey = "dd0a682c-45b1-456d-866f-f5a9667baf27";
 
         try {
             const response = await fetch("https://api.web3forms.com/submit", {
