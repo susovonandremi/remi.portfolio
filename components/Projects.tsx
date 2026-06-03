@@ -127,11 +127,6 @@ export default function Projects() {
                                 A browser extension designed to peel away web clutter and interface friction, providing a clean, context-aware AI UI directly in your active browser window.
                             </p>
                             <div className="flex gap-6 flex-wrap">
-                                <Link href="/projects/peel">
-                                    <button className="text-sm font-bold uppercase tracking-wider border-b border-[#00f0ff] pb-1 hover:text-[#00f0ff] transition-colors cursor-pointer">
-                                        View Case Study
-                                    </button>
-                                </Link>
                                 <a
                                     href="https://github.com/susovonandremi/peel/releases"
                                     target="_blank"
