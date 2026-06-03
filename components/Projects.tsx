@@ -156,7 +156,7 @@ export default function Projects() {
                         </div>
                     </motion.div>
 
-                    {/* Project 3: AI UI Generator (Static) */}
+                    {/* Project 3: Revision (Static) */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -165,32 +165,39 @@ export default function Projects() {
                         className="group flex flex-col gap-6"
                     >
                         {/* Image */}
-                        <Link href="https://prompt-ut.vercel.app" target="_blank" className="w-full aspect-video bg-neutral-900 rounded-2xl overflow-hidden relative border border-white/5 ring-1 ring-white/0 transition-all duration-500 hover:ring-white/20 hover:shadow-[0_0_30px_rgba(255,255,255,0.05)]">
+                        <a href="https://prompt-ut.vercel.app" target="_blank" rel="noopener noreferrer" className="w-full aspect-video bg-neutral-900 rounded-2xl overflow-hidden relative border border-white/5 ring-1 ring-white/0 transition-all duration-500 hover:ring-white/20 hover:shadow-[0_0_30px_rgba(255,255,255,0.05)]">
                             <div className="absolute inset-0 z-10 bg-gradient-to-tr from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
                             <Image
                                 src="/ai-ui-generator.png"
-                                alt="AI UI Generator"
+                                alt="Revision"
                                 fill
                                 priority
                                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                             />
-                        </Link>
+                        </a>
 
                         {/* Content */}
                         <div className="w-full flex flex-col items-start mt-2">
-                            <Link href="https://prompt-ut.vercel.app" target="_blank">
+                            <a href="https://prompt-ut.vercel.app" target="_blank" rel="noopener noreferrer">
                                 <h3 className="text-2xl md:text-3xl font-bold mb-4 hover:text-[#00f0ff] transition-colors">
-                                    AI UI Generator
+                                    Revision
                                 </h3>
-                            </Link>
+                            </a>
                             <p className="text-neutral-400 text-lg mb-6 leading-relaxed">
                                 An intelligent design assistant that transforms natural language prompts into production-ready UI layouts using generative AI.
                             </p>
-                            <Link href="https://github.com/susovonandremi/prompt-ut" target="_blank">
-                                <button className="text-sm font-bold uppercase tracking-wider border-b border-[#00f0ff] pb-1 hover:text-[#00f0ff] transition-colors cursor-pointer">
-                                    Project Overview
-                                </button>
-                            </Link>
+                            <div className="flex gap-6 flex-wrap">
+                                <a href="https://prompt-ut.vercel.app" target="_blank" rel="noopener noreferrer">
+                                    <button className="text-sm font-bold uppercase tracking-wider border-b border-[#00f0ff] pb-1 hover:text-[#00f0ff] transition-colors cursor-pointer">
+                                        Live Demo
+                                    </button>
+                                </a>
+                                <a href="https://github.com/susovonandremi/prompt-ut" target="_blank" rel="noopener noreferrer">
+                                    <button className="text-sm font-bold uppercase tracking-wider border-b border-[#00f0ff] pb-1 hover:text-[#00f0ff] transition-colors cursor-pointer">
+                                        Source Code
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </motion.div>
 
