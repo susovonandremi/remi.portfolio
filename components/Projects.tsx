@@ -104,15 +104,13 @@ export default function Projects() {
                     <a href="https://github.com/susovonandremi/peel" target="_blank" rel="noopener noreferrer" className="w-full md:w-1/2 aspect-video bg-neutral-950 rounded-2xl overflow-hidden relative border border-white/5 ring-1 ring-white/0 transition-all duration-500 hover:ring-white/20 hover:shadow-[0_0_30px_rgba(255,255,255,0.05)] flex items-center justify-center group/img">
                         <div className="absolute inset-0 z-10 bg-gradient-to-tr from-white/5 to-transparent opacity-0 group-hover/img:opacity-100 transition-opacity duration-500 pointer-events-none" />
                         <div className="absolute w-40 h-40 bg-[#00f0ff]/5 rounded-full blur-[80px] pointer-events-none group-hover/img:bg-[#00f0ff]/15 transition-all duration-500" />
-                        <div className="relative w-28 h-28 md:w-32 md:h-32 transition-transform duration-700 group-hover/img:scale-105">
-                            <Image
-                                src="/Peel-icon.png"
-                                alt="Peel Icon"
-                                fill
-                                priority
-                                className="object-contain"
-                            />
-                        </div>
+                        <Image
+                            src="/Peel-icon.png"
+                            alt="Peel Icon"
+                            fill
+                            priority
+                            className="object-contain p-8 md:p-12 transition-transform duration-700 group-hover:scale-105"
+                        />
                     </a>
 
                     {/* Content */}
